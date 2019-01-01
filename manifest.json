@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "version": "0.4",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
+
+    "permissions": ["downloads", "contextMenus", "storage"],
+    "icons": {
+	"48": "icons/qsd.svg",
+	"96": "icons/qsd.svg"
+    },
+    "options_ui": {
+	"page": "options.html"
+    },
+
+    "background": {
+	"scripts": ["dl-to-folder.js"]
+    }
+}

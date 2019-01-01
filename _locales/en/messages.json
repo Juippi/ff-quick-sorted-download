@@ -1,0 +1,51 @@
+{
+    "extensionName": {
+	"message": "Quick Sorted Download",
+	"description": "Name of the extension."
+    },
+
+    "extensionDescription": {
+	"message": "Adds context menu item to download files to an automatically chosen subfolder inside your downloads directory. The destination is chosen based on the URL and a set of customizable rules.",
+	"description": "Description of the extension."
+    },
+
+    "rulesTableTitle": {
+	"message": "Rules",
+	"description": "Title above the rules table"
+    },
+
+    "rulesTablePatternColTitle": {
+	"message": "Pattern",
+	"description": "Title for the patterns column in rules table"
+    },
+
+    "rulesTableDirectoryColTitle": {
+	"message": "Subfolder",
+	"description": "Title for the directory column in rules table"
+    },
+
+    "removeThisRule": {
+	"message": "-",
+	"description": "Label of the remove this rule button"
+    },
+
+    "addRule": {
+	"message": "Add rule",
+	"description": "Label of the add rule button"
+    },
+
+    "save": {
+	"message": "Save rules",
+	"description": "Label of the save button"
+    },
+
+    "ruleHints": {
+	"message": "'Pattern' is a regular expression matching part of the URL, or simply a word appearing in it. 'Subfolder' is the name of a subfolder in your downloads directory, which must already exist. Rules are checked in order from top to bottom.",
+	"description": "Rule creation hints above the rules table"
+    },
+
+    "contextMenuItemLabel" : {
+	"message": "Quick Sorted Download",
+	"description": "Label for our context menu item"
+    }
+}
